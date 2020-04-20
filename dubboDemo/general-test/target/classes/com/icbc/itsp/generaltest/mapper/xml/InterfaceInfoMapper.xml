@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.icbc.itsp.generaltest.mapper.InterfaceInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.icbc.itsp.generaltest.entity.InterfaceInfo">
+        <id column="id" property="id" />
+        <result column="version" property="version" />
+        <result column="interface_en_name" property="interfaceEnName" />
+        <result column="interface_ch_name" property="interfaceChName" />
+        <result column="belong_app" property="belongApp" />
+        <result column="invoke_app" property="invokeApp" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, version, interface_en_name, interface_ch_name, belong_app, invoke_app
+    </sql>
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.icbc.itsp.generaltest.mapper.CaseInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.icbc.itsp.generaltest.entity.CaseInfo">
+        <id column="id" property="id" />
+        <result column="case_name" property="caseName" />
+        <result column="case_desc" property="caseDesc" />
+        <result column="interface_ids" property="interfaceIds" />
+        <result column="input_json" property="inputJson" />
+        <result column="assert_ids" property="assertIds" />
+        <result column="belong_man" property="belongMan" />
+        <result column="update_on" property="updateOn" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, case_name, case_desc, interface_ids, input_json, assert_ids, belong_man, update_on
+    </sql>
+
+</mapper>

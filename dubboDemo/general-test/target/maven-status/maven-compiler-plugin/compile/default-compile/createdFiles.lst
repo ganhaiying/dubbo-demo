@@ -1,0 +1,6 @@
+com\icbc\itsp\generaltest\service\serviceImpl\InterfaceInfoServiceImpl.class
+com\icbc\itsp\generaltest\controller\InterfaceInfoController.class
+com\icbc\itsp\generaltest\mapper\InterfaceInfoMapper.class
+com\icbc\itsp\generaltest\StartGeneralTest.class
+com\icbc\itsp\generaltest\entity\InterfaceInfo.class
+com\icbc\itsp\generaltest\service\InterfaceInfoService.class

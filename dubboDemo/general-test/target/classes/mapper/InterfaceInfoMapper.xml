@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.icbc.itsp.generaltest.mapper.InterfaceInfoMapper">
+    <resultMap id="BaseResultMap" type="com.icbc.itsp.generaltest.entity.InterfaceInfo">
+        <result column="id" property="id" />
+        <result column="version" property="version" />
+        <result column="interfaceEnName" property="interfaceEnName" />
+        <result column="interfaceChName" property="interfaceChName" />
+    </resultMap>
+    <select id="query" parameterType="com.icbc.itsp.generaltest.entity.InterfaceInfo" resultType="com.icbc.itsp.generaltest.entity.InterfaceInfo">
+        select * from interface_info
+    </select>
+</mapper>
